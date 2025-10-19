@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*,
+html {
+    margin:0;
+    padding:0;
+}
+
+a{
+    margin-right:70px;
+    margin-left:70px;
+    text-decoration: none;
+    color:white;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color:#303234;
+    text-align: center;
+
+}
+
+.Words{
+    text-align:center;
+    font-family: "Manrope", sans-serif;
+    color:yellow;
+}
+
+
+  .TL {
+    left:20px;
+    float:left;
+    position:absolute;
+    margin-top: -35px;
+}
+
+.Bordered {
+    border: 5px solid yellow;
+}
+
+.Left {
+    border: 5px solid yellow;
+    float:left;
+    margin-left: 30px;
+    margin-right:10px;
+    margin-top:10px;
+    /* height:auto; */
+}
+
+.Name {
+    float:left;
+    margin-left:80px;
+    margin-right:80px;
+    text-decoration: none;
+    color:white;
+    font-family: "Manrope", sans-serif;    
+
+}
+
+.Mem{
+        border: 5px solid yellow;
+    float:left;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.Active {
+    color:yellow;
+}
+
+.Perenggan {
+    text-align:center;
+    font-family: "Manrope", sans-serif; 
+    color:white;
+}
+
+article p {
+    text-align: justify;    /* ini yang buat teks rata kiri kanan */
+    line-height: 1.7;
+    margin-bottom: 12px;
+    font-family: "Manrope", sans-serif; 
+    color:white;
+}
